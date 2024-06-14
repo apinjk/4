@@ -1,0 +1,7 @@
+!   › By AkmalMods 
+
+>#! 9rd revision
+-fix - bug not visible in victim
+!Lack? - The bug can cause a user's WhatsApp to crash
+
+AkmalMods © copyright
