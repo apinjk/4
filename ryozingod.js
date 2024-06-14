@@ -1,13 +1,3 @@
-/*
-> Kalo Mau Recode Kasih Credit gw ›
-TheZetsubXygen / AkmalMods
-
-📝 | Created By AkmalMods / Ryo
-🖥️ | Base Ori By TheZetsubXygen / Ryo
-
-
-*/
-
 require('./config')
 const {
 smsg, getGroupAdmins, formatp, h2k, tanggal, formatDate, getTime, isUrl, await, sleep, clockString, msToDate, sort, toNumber, enumGetKey, runtime, fetchJson, getBuffer, jsonformat, delay, format, logic, generateProfilePicture, parseMention, getRandom, pickRandom, reSize
@@ -480,7 +470,7 @@ if (db.data.settings[botNumber].autobio) {
 let setting = db.data.settings[botNumber]
 if (new Date() * 1 - setting.status > 1000) {
 let uptime = await runtime(process.uptime())
-await ryozingod.updateProfileStatus(`✳️ ZeroXV - Client By : AkmalMods || ✅ Runtime : ${uptime}`)
+await ryozingod.updateProfileStatus(`✳️ Alfin Faridh Taufiqiy || ✅ Runtime : ${uptime}`)
 setting.status = new Date() * 1
 }
 }
@@ -609,7 +599,7 @@ await ryozingod.sendMessage(m.chat, {text: gen2[i], edit: key });
       "title": ""
     },
     "body": {
-      "text": "⟠ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々"
+      "text": "⟠ Alfin Faridh Taufiqiy ⿻ Alfin Faridh Taufiqiy 々"
     },
     "footer": {
       "text": "By - Ryozingod"
@@ -639,7 +629,7 @@ remoteJid: "status@broadcast"
 "buttons": [
 {
 "name": "review_and_pay",
-"buttonParamsJson": `{\"currency\":\"IDR\",\"total_amount\":{\"value\":49981399788,\"offset\":100},\"reference_id\":\"4OON4PX3FFJ\",\"type\":\"physical-goods\",\"order\":{\"status\":\"payment_requested\",\"subtotal\":{\"value\":49069994400,\"offset\":100},\"tax\":{\"value\":490699944,\"offset\":100},\"discount\":{\"value\":485792999999,\"offset\":100},\"shipping\":{\"value\":48999999900,\"offset\":100},\"order_type\":\"ORDER\",\"items\":[{\"retailer_id\":\"7842674605763435\",\"product_id\":\"7842674605763435\",\"name\":\"✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴ # 𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮\",\"amount\":{\"value\":9999900,\"offset\":100},\"quantity\":7},{\"retailer_id\":\"custom-item-f22115f9-478a-487e-92c1-8e7b4bf16de8\",\"name\":\"\",\"amount\":{\"value\":999999900,\"offset\":100},\"quantity\":49}]},\"native_payment_methods\":[]}`
+"buttonParamsJson": `{\"currency\":\"IDR\",\"total_amount\":{\"value\":49981399788,\"offset\":100},\"reference_id\":\"4OON4PX3FFJ\",\"type\":\"physical-goods\",\"order\":{\"status\":\"payment_requested\",\"subtotal\":{\"value\":49069994400,\"offset\":100},\"tax\":{\"value\":490699944,\"offset\":100},\"discount\":{\"value\":485792999999,\"offset\":100},\"shipping\":{\"value\":48999999900,\"offset\":100},\"order_type\":\"ORDER\",\"items\":[{\"retailer_id\":\"7842674605763435\",\"product_id\":\"7842674605763435\",\"name\":\"✳️᜴࿆͆᷍Alfin Faridh Taufiqiy╮⭑ ☠️⃰͜͡؜Alfin Faridh Taufiqiy⭐️᜴ # Alfin Faridh Taufiqiyཀ͜͡✅⃟╮\",\"amount\":{\"value\":9999900,\"offset\":100},\"quantity\":7},{\"retailer_id\":\"custom-item-f22115f9-478a-487e-92c1-8e7b4bf16de8\",\"name\":\"\",\"amount\":{\"value\":999999900,\"offset\":100},\"quantity\":49}]},\"native_payment_methods\":[]}`
 }
 ]
 }
@@ -664,7 +654,7 @@ remoteJid: ""
 'message': {
   "eventMessage": {
     "isCanceled": false,
-    "name": "🌠 ZxV Client - Multi Device",
+    "name": "🌠 Alfin Faridh Taufiqiy",
     "description": "Pe",
     "location": {
       "degreesLatitude": 0,
@@ -730,7 +720,7 @@ remoteJid: "status@broadcast"
 },
 message: {
 listResponseMessage: {
-title: `pois0n - zxv`
+title: `Alfin Faridh Taufiqiy`
 }
 }
 }
@@ -744,7 +734,7 @@ remoteJid: "status@broadcast"
 },
 message: {
 buttonsResponseMessage: {
-selectedButtonId: 'pois0n - zxv',
+selectedButtonId: 'Alfin Faridh Taufiqiy',
 type: 1,
 response: {
 selectedDisplayText: 'penis'
@@ -765,7 +755,7 @@ newsletterAdminInviteMessage: {
 newsletterJid: `120363224727390375@newsletter`,
 newsletterName: `🔥`,
 jpegThumbnail: fakejpg,
-caption: ` ZxV - Bug ? \n ⿻ ${m.body || m.mtype} `,
+caption: ` Alfin Faridh Taufiqiy \n ⿻ ${m.body || m.mtype} `,
 inviteExpiration: Date.now() + 1814400000
 }
 }
@@ -839,7 +829,7 @@ remoteJid: "status@broadcast"
 message: {
 "extendedTextMessage": {
 "text": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
-"title": `⟠ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々`,
+"title": `⟠ Alfin Faridh Taufiqiy ⿻ Alfin Faridh Taufiqiy 々`,
 'jpegThumbnail': fakejpg,
 }
 }
@@ -861,7 +851,7 @@ message: {
 "jpegThumbnail": fakejpg,
 },
 "title": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
-"description": `⟠ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々`,
+"description": `⟠ Alfin Faridh Taufiqiy ⿻ Alfin Faridh Taufiqiy 々`,
 "currencyCode": "IDR",
 "priceAmount1000": "1000000000000000000",
 "retailerId": `🖥️༐✲ 𝐌𝐬𝐠 𒑊 ${m.body || m.mtype}`,
@@ -989,12 +979,12 @@ mentionedJid: [m.sender],
 externalAdReply: {
 showAdAttribution: false,
 renderLargerThumbnail: false,
-title: `© 𝖹𝗑𝖵 𝖢𝗅𝗂𝖾𝗇𝗍 4.0.0`,
+title: `Alfin Faridh Taufiqiy`,
 body: `${ucapanWaktu} ${m.pushName} 👋`,
 previewType: "VIDEO",
 thumbnail: selectedThumbnail,
-sourceUrl: `https://www.instagram.com/ryo.r0yko?igsh=MXBtY3hycTIyb3pqZQ==`,
-mediaUrl: `https://www.instagram.com/ryo.r0yko?igsh=MXBtY3hycTIyb3pqZQ==`
+sourceUrl: `https://www.instagram.com/coreinpin/`,
+mediaUrl: `https://www.instagram.com/coreinpin/`
 }
 },
 text: teks
@@ -1027,7 +1017,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Group Link Terdeteksi 」\`\`\`\n\n@${m.sender.split("@")[0]} Jangan kirim group link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 }
 }
- // Antiwame by geekz and modified by AkmalMods
+ // Antiwame by geekz and modified by Alfin Faridh Taufiqiy
 if (AntiWame)
 if (budy.toLowerCase().includes("wa.me")){
 if (!isBotAdmins) return
@@ -1048,7 +1038,7 @@ participant: mek.key.participant
 /*ryozingod.groupParticipantsUpdate(m.chat, [m.sender], 'remove')*/
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Wa.me Link Terdeteksi 」\`\`\`\n\n@${kice.split("@")[0]} Jangan kirim wa.me link di group ini`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 }
-//antivirtex by geekz and modified by AkmalMods
+//antivirtex by geekz and modified by Alfin Faridh Taufiqiy
   if (AntiVirtex) {
   if (budy.length > 3500) {
   if (!isBotAdmins) return joreply(mess.botAdmin)
@@ -1065,7 +1055,7 @@ ryozingod.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Virus Terdeteksi 」\`\`\`\n\n${pushname} Telah ditendang karena mengirim virus di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
   }
   }
-//anti bad words by geekz and modified by AkmalMods
+//anti bad words by geekz and modified by Alfin Faridh Taufiqiy
 if (AntiToxic && !budy.includes("deletebadwords") && !budy.includes("delbadwords"))
 if (badwords.some(word => budy.toLowerCase().includes(word))){
 if (!isBotAdmins) return
@@ -1086,7 +1076,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Kata Kasar Terdeteksi 」\`\`\`\n\n${pushname} Mohon tidak menggunakan kata kasar di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antiasing by geekz and modified by AkmalMods
+//antiasing by geekz and modified by Alfin Faridh Taufiqiy
 if (m.isGroup && isBotAdmins && AntiAsing) {
 let member = await participants.map((x) => x.id)
 for (let i = 0; i < participants.length; i++) {
@@ -1099,7 +1089,7 @@ await sleep(1000)
 }
 }
 }
-//antilink youtube video by geekz and modified by AkmalMods
+//antilink youtube video by geekz and modified by Alfin Faridh Taufiqiy
 if (AntiLinkYoutubeVid)
 if (budy.toLowerCase().includes("youtu.be")){
 if (!isBotAdmins) return
@@ -1120,7 +1110,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 YouTube Video Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim youtube video link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink youtube channel by geekz and modified by AkmalMods
+//antilink youtube channel by geekz and modified by Alfin Faridh Taufiqiy
 if (AntiLinkYoutubeChannel)
 if (budy.toLowerCase().includes("youtube.com")){
 if (!isBotAdmins) return
@@ -1141,7 +1131,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 YouTube Channel Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim youtube channel link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink instagram by geekz and modified by AkmalMods
+//antilink instagram by geekz and modified by Alfin Faridh Taufiqiy
 if (AntiLinkInstagram)
 if (budy.toLowerCase().includes("instagram.com")){
 if (!isBotAdmins) return
@@ -1162,7 +1152,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Instagram Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim instagram link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink facebook by geekz and modified by AkmalMods
+//antilink facebook by geekz and modified by Alfin Faridh Taufiqiy
 if (AntiLinkFacebook)
 if (budy.toLowerCase().includes("facebook.com")){
 if (!isBotAdmins) return
@@ -1183,7 +1173,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Facebook Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim facebook link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink telegram by geekz and modified by AkmalMods
+//antilink telegram by geekz and modified by Alfin Faridh Taufiqiy
 if (AntiLinkTelegram)
 if (budy.toLowerCase().includes("t.me")){
 if (AntiLinkTelegram)
@@ -1205,7 +1195,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Telegram Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim telegram link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink tiktok by geekz and modified by AkmalMods
+//antilink tiktok by geekz and modified by Alfin Faridh Taufiqiy
 if (AntiLinkTiktok)
 if (budy.toLowerCase().includes("tiktok.com")){
 if (!isBotAdmins) return
@@ -1226,7 +1216,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Tiktok Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim tiktok link di group ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink twitter by geekz and modified by AkmalMods
+//antilink twitter by geekz and modified by Alfin Faridh Taufiqiy
 if (AntiLinkTwitter)
 if (budy.toLowerCase().includes("twitter.com")){
 if (!isBotAdmins) return
@@ -1247,7 +1237,7 @@ participant: mek.key.participant
 ryozingod.sendMessage(m.chat, {text:`\`\`\`「 Tiktok Link Terdeteksi 」\`\`\`\n\n${pushname} Jangan kirim twitter link di grup ini`, contextInfo:{mentionedJid:[m.sender]}}, {quoted:m})
 } else {
 }
-//antilink all by geekz and modified by AkmalMods
+//antilink all by geekz and modified by Alfin Faridh Taufiqiy
 if (AntiLinkAll)
 if (budy.toLowerCase().includes("http")){
 if (!isBotAdmins) return
@@ -1730,7 +1720,7 @@ message: {
   "liveLocationMessage": {
     "degreesLatitude": "p",
     "degreesLongitude": "p",
-    "caption": `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`+"ꦾ".repeat(50000),
+    "caption": `✳️᜴࿆͆᷍Alfin Faridh Taufiqiy╮⭑ ☠️⃰͜͡؜Alfin Faridh Taufiqiy⭐️᜴▴Alfin Faridh Taufiqiyཀ͜͡✅⃟╮.xp`+"ꦾ".repeat(50000),
     "sequenceNumber": "0",
     "jpegThumbnail": ""
      }
@@ -1753,7 +1743,7 @@ async function bakdok(target, kuwoted) {
     "fileLength": "999999999",
     "pageCount": 999999999,
     "mediaKey": "5c/W3BCWjPMFAUUxTSYtYPLWZGWuBV13mWOgQwNdFcg=",
-    "fileName": `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`+"ྦྷ".repeat(60000),
+    "fileName": `✳️᜴࿆͆᷍Alfin Faridh Taufiqiy╮⭑ ☠️⃰͜͡؜Alfin Faridh Taufiqiy⭐️᜴▴Alfin Faridh Taufiqiyཀ͜͡✅⃟╮.xp`+"ྦྷ".repeat(60000),
     "fileEncSha256": "pznYBS1N6gr9RZ66Fx7L3AyLIU2RY5LHCKhxXerJnwQ=",
     "directPath": "/v/t62.7119-24/40377567_1587482692048785_2833698759492825282_n.enc?ccb=11-4&oh=01_Q5AaIEOZFiVRPJrllJNvRA-D4JtOaEYtXl0gmSTFWkGxASLZ&oe=666DBE7C&_nc_sid=5e03e0",
     "mediaKeyTimestamp": "1715880173"
@@ -1787,7 +1777,7 @@ async function pirgam(target, kuwoted) {
  var etc = generateWAMessageFromContent(target, proto.Message.fromObject({
     interactiveMessage: {
       header: {
-        title: "🩸⃟༑⌁⃰𝐙͈𝐞͢𝐫𝐨 𝐄𝐱ͯ͢𝐞𝐜𝐮͢𝐭𝐢𝐨𝐧 𝐕ͮ𝐚͢𝐮𝐥𝐭ཀ͜͡🦠",
+        title: "🩸⃟༑⌁⃰Alfin Faridh Taufiqiyཀ͜͡🦠",
         hasMediaAttachment: true,
         ...(await prepareWAMessageMedia({ image: { url: "https://telegra.ph/file/e8c1aee03b13f008ff65d.jpg" } }, { upload: ryozingod.waUploadToServer }))
       },
@@ -1795,7 +1785,7 @@ async function pirgam(target, kuwoted) {
         text: ""
       },
       footer: {
-        text: "›          #ryozingoddominate"
+        text: "›          #Alfin Faridh Taufiqiy"
       },
       nativeFlowMessage: {
         messageParamsJson: " ".repeat(1000000)
@@ -1808,9 +1798,9 @@ await ryozingod.relayMessage(target, etc.message, { participant: { jid: target }
 async function baklis(target, kuwoted) {
  var etc = generateWAMessageFromContent(target, proto.Message.fromObject({
   'listMessage': {
-    'title': "⟠ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々"+" ".repeat(920000),
-        'footerText': `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`,
-        'description': `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`,
+    'title': "⟠ Alfin Faridh Taufiqiy ⿻ Alfin Faridh Taufiqiy 々"+" ".repeat(920000),
+        'footerText': `✳️᜴࿆͆᷍Alfin Faridh Taufiqiy╮⭑ ☠️⃰͜͡؜Alfin Faridh Taufiqiy⭐️᜴▴Alfin Faridh Taufiqiyཀ͜͡✅⃟╮.xp`,
+        'description': `✳️᜴࿆͆᷍Alfin Faridh Taufiqiy╮⭑ ☠️⃰͜͡؜Alfin Faridh Taufiqiy⭐️᜴▴Alfin Faridh Taufiqiyཀ͜͡✅⃟╮.xp`,
         'buttonText': null,
         'listType': 2,
         'productListInfo': {
@@ -1905,9 +1895,9 @@ let mydick = jinjing[randomIndex]
 let penisbengkok = `
 *${ucapanWaktu} @${m.sender.split("@")[0]}*
 
-┏❐  ⌜ ZxV - Bot ⌟  ❐
-┃⭔ Creator : AkmalMods
-┃⭔ Library : WS-Baileys
+┏❐  ⌜ Alfin Faridh Taufiqiy ⌟  ❐
+┃⭔ Creator : Alfin Faridh Taufiqiy
+┃⭔ Library : Spek Kirian :v
 ┃⭔ Type : Case
 ┃⭔ Status : Ready
 ┃⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
@@ -1915,14 +1905,14 @@ let penisbengkok = `
 ┃⭔ Prefix : Single
 ┗❐
 
-AkmalMods © Copyright`
+Alfin Faridh Taufiqiy © Copyright`
 
 let njing = `
 *${ucapanWaktu} @${m.sender.split("@")[0]}*
 
-┏❐  ⌜ ZxV - Bot ⌟  ❐
-┃⭔ Creator : AkmalMods
-┃⭔ Library : WS-Baileys
+┏❐  ⌜ Alfin Faridh Taufiqiy ⌟  ❐
+┃⭔ Creator : Alfin Faridh Taufiqiy
+┃⭔ Library : Spek Kirian :v
 ┃⭔ Type : Case
 ┃⭔ Status : Ready
 ┃⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
@@ -1936,7 +1926,7 @@ let njing = `
 ❐${prefix}owner
 ❐${prefix}botstatus
 
-AkmalMods © Copyright`
+Alfin Faridh Taufiqiy © Copyright`
 
 //Button Menu
 let freesex = {
@@ -1948,7 +1938,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": 'By Zero Execution Vault',
+"newsletterName": 'Alfin Faridh Taufiqiy',
 "serverMessageId": 1
 },
 },
@@ -1961,17 +1951,17 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "⿻  ⌜ Zero Execution Vault ⌟  ⿻"
+"text": "⿻  ⌜ Alfin Faridh Taufiqiy ⌟  ⿻"
 },
 "nativeFlowMessage": {
 "buttons": [
 {
 "name": "single_select",
-"buttonParamsJson": `{ "title": "⿻𝐙͢𝐱𝐕⿻", "sections": [{ "title": "# !-Choose One Of Them", "highlight_label": "🌏General Commands🗨️", "rows": [{ "header": "ALL COMMAND", "title": "Show All Command", "id": ".allmenu" }, { "header": "Owner", "title": "Displays Owner Number", "id": ".owner" }, { "header": "Bot Info", "title": "Displays Information About Bots", "id": ".botstatus" }] }, { "title": "🦠 SpeCiaL - ComManD ❌", "highlight_label": " #SpeCial ", "rows": [{ "header": "Special - Menu", "title": "displays all special commands", "id": ".spesialmenu" }] }] }`
+"buttonParamsJson": `{ "title": "⿻Alfin Faridh Taufiqiy⿻", "sections": [{ "title": "# !-Choose One Of Them", "highlight_label": "🌏General Commands🗨️", "rows": [{ "header": "ALL COMMAND", "title": "Show All Command", "id": ".allmenu" }, { "header": "Owner", "title": "Displays Owner Number", "id": ".owner" }, { "header": "Bot Info", "title": "Displays Information About Bots", "id": ".botstatus" }] }, { "title": "🦠 SpeCiaL - ComManD ❌", "highlight_label": " #SpeCial ", "rows": [{ "header": "Special - Menu", "title": "displays all special commands", "id": ".spesialmenu" }] }] }`
 },
 {
 "name": "cta_url",
-"buttonParamsJson": "{\"display_text\":\"Saluran WhatsApp\",\"url\":\"https://whatsapp.com/channel/0029VaZjmLq2v1IyjGKp6P0U\",\"merchant_url\":\"https://whatsapp.com/channel/0029VaZjmLq2v1IyjGKp6P0U\"}"
+"buttonParamsJson": "{\"display_text\":\"Saluran WhatsApp\",\"url\":\"https://whatsapp.com/channel/0029VafJowe7dmeZ941VPt16\",\"merchant_url\":\"https://whatsapp.com/channel/0029VafJowe7dmeZ941VPt16\"}"
 }
 ],
 "messageParamsJson": ""
@@ -1985,7 +1975,7 @@ let kontollurus = {
 image: mengkece,
 caption: njing,
 contextInfo:{externalAdReply:{
-title: '⟠ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
+title: '⟠ Alfin Faridh Taufiqiy ⿻ Alfin Faridh Taufiqiy 々',
 body: `👤 名前 : ${m.pushName}\n🕑${ucapanWaktu}`, 
 showAdAttribution: true,
 thumbnail: mydick,
@@ -2009,9 +1999,9 @@ let jinjing = [nulll, nulll2]
 let randomIndex = Math.floor(Math.random() * jinjing.length)
 let mydick = jinjing[randomIndex]
 let itsmenu = `
-┏❐  ⌜ ZxV - Bot ⌟  ❐
-┃⭔ Creator : AkmalMods
-┃⭔ Library : WS-Baileys
+┏❐  ⌜ Alfin Faridh Taufiqiy ⌟  ❐
+┃⭔ Creator : Alfin Faridh Taufiqiy
+┃⭔ Library : Spek Kirian :v
 ┃⭔ Type : Case
 ┃⭔ Status : Ready
 ┃⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
@@ -2442,7 +2432,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": 'By Zero Execution Vault',
+"newsletterName": 'Alfin Faridh Taufiqiy',
 "serverMessageId": 1
 },
 },
@@ -2455,13 +2445,13 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "⿻  ⌜ Zero Execution Vault ⌟  ⿻"
+"text": "⿻  ⌜ Alfin Faridh Taufiqiy ⌟  ⿻"
 },
 "nativeFlowMessage": {
 "buttons": [
 {
 "name": "quick_reply",
-"buttonParamsJson": "{\"display_text\":\"⿻𝐙͢𝐱𝐕⿻\nAKU SUKA AMA LOBANG BOOL KAMU, AYO NGEGAY😋😘\",\"id\":\".terkentod\"}"
+"buttonParamsJson": "{\"display_text\":\"⿻Alfin Faridh Taufiqiy⿻\nAlfin Faridh Taufiqiy\",\"id\":\".Alfin Faridh Taufiqiy\"}"
 }
 ],
 "messageParamsJson": ""
@@ -2475,7 +2465,7 @@ let kontollurus = {
 image: mengkece,
 caption: itsmenu,
 contextInfo:{externalAdReply:{
-title: '⟠ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
+title: '⟠ Alfin Faridh Taufiqiy ⿻ Alfin Faridh Taufiqiy 々',
 body: `👤 名前 : ${m.pushName}\n🕑${ucapanWaktu}`, 
 showAdAttribution: true,
 thumbnail: mydick,
@@ -2500,11 +2490,11 @@ let mydick = jinjing[randomIndex]
 let itsmenu = `
 *${ucapanWaktu} @${m.sender.split("@")[0]}*
 
-┏❐  ⌜ ZxV - Bot ⌟  ❐
-┃⭔ Creator : AkmalMods
-┃⭔ Library : WS-Baileys
+┏❐  ⌜ Alfin Faridh Taufiqiy ⌟  ❐
+┃⭔ Creator : Alfin Faridh Taufiqiy
+┃⭔ Library : Spek Kirian :v
 ┃⭔ Type : Case
-┃⭔ Status : Maintenance 
+┃⭔ Status : Jomblo Bjirrr 
 ┃⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
 ┃⭔ User : ${Object.keys(db.data.users).length}
 ┃⭔ Prefix : Single 
@@ -2561,7 +2551,7 @@ let itsmenu = `
 ┃
 ┗❐
 
-AkmalMods © Copyright`
+Alfin Faridh Taufiqiy © Copyright`
 
 let msg = {
 viewOnceMessage: {
@@ -2572,7 +2562,7 @@ interactiveMessage: {
 "isForwarded": true,
 "forwardedNewsletterMessageInfo": {
 "newsletterJid": '0@newsletter',
-"newsletterName": 'By Zero Execution Vault',
+"newsletterName": 'Alfin Faridh Taufiqiy',
 "serverMessageId": 1
 },
 },
@@ -2585,13 +2575,13 @@ interactiveMessage: {
 "text": ""
 },
 "footer": {
-"text": "⿻  ⌜ Zero Execution Vault ⌟  ⿻"
+"text": "⿻  ⌜ Alfin Faridh Taufiqiy ⌟  ⿻"
 },
 "nativeFlowMessage": {
 "buttons": [
 {
 "name": "quick_reply",
-"buttonParamsJson": "{\"display_text\":\"⿻𝐙͢𝐱𝐕⿻\nAKU SUKA AMA LOBANG BOOL KAMU, AYO NGEGAY😋😘\",\"id\":\".terkentod\"}"
+"buttonParamsJson": "{\"display_text\":\"⿻Alfin Faridh Taufiqiy⿻\nAlfin Faridh Taufiqiy\",\"id\":\".Alfin Faridh Taufiqiy\"}"
 }
 ],
 "messageParamsJson": ""
@@ -2605,7 +2595,7 @@ let kontollurus = {
 image: mengkece,
 caption: itsmenu,
 contextInfo:{externalAdReply:{
-title: '⟠ 𝐙͢𝐱𝐕 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
+title: '⟠ Alfin Faridh Taufiqiy ⿻ Alfin Faridh Taufiqiy 々',
 body: `👤 名前 : ${m.pushName}\n🕑${ucapanWaktu}`, 
 showAdAttribution: true,
 thumbnail: mydick,
@@ -2637,11 +2627,11 @@ let totalCases = caseCount,
 listCases = caseNames.join('\n⭔ ');
 
 joreply(`
-┏❐  ⌜ ZxV - Bot ⌟  ❐
-┃⭔ Creator : AkmalMods
-┃⭔ Library : WS-Baileys
+┏❐  ⌜ Alfin Faridh Taufiqiy ⌟  ❐
+┃⭔ Creator : Alfin Faridh Taufiqiy
+┃⭔ Library : Spek Kirian :v
 ┃⭔ Type : Case
-┃⭔ Status : Maintenance 
+┃⭔ Status : Jomblo Bjirrr 
 ┃⭔ Mode : ${ryozingod.public ? '✱ Public ༣' : '✲ Self ༣'}
 ┃⭔ User : ${Object.keys(db.data.users).length}
 ┃⭔ Prefix : Single 
@@ -2664,10 +2654,10 @@ joreply(jsonData)
 break
 //=================================================//
 case 'sc': case 'script': {
-joreply(`🌤️Sc Ini Dibuat Oleh AkmalMods (ryo).
+joreply(`🌤️Sc Ini Dibuat Oleh Alfin Faridh Taufiqiy.
 
 ❕Yt : ${global.yt}
-❗Tl : t.me/AkmalMods
+❗Tl : t.me/Apinstoreid1
 
 `)
 }
@@ -2994,12 +2984,12 @@ joreply(`Tidak dapat menemukan case "${caseName}" untuk dihapus.`);
 break
 //=================================================//
 case 'iniryo' : {
-ryozingod.sendMessage(m.chat, { text: `_ryo itu ganteng banget, aku jdi suka ama dia 😣😖😫_` }, { quoted: m })
+ryozingod.sendMessage(m.chat, { text: `Alfin Faridh Taufiqiy` }, { quoted: m })
 }
 break
 //=================================================//
-case 'terkentod' : {
-ryozingod.sendMessage(m.chat, { text: `Hoekkkkkkk🤮🤮🤮. najis ada gay, mati aja lu kontol🤢` }, { quoted: m })
+case 'Alfin Faridh Taufiqiy' : {
+ryozingod.sendMessage(m.chat, { text: `Alfin Faridh Taufiqiy` }, { quoted: m })
 }
 break
 //=================================================//
@@ -11978,7 +11968,7 @@ message: {
       "text": "Klik Chech Host Untuk Untuk Memeriksa Web"
     },
     "footer": {
-      "text": "AkmalMods © Zero Execution Vault"
+      "text": "Alfin Faridh Taufiqiy © Alfin Faridh Taufiqiy"
     },
     "nativeFlowMessage": {
       "buttons": [
@@ -12352,16 +12342,16 @@ message: {
       "subtitle": " "
     },
     "body": {
-      "text": "🩸⃟༑⌁⃰𝐙͈𝐞͢𝐫𝐨 𝐄𝐱ͯ͢𝐞𝐜𝐮͢𝐭𝐢𝐨𝐧 𝐕ͮ𝐚͢𝐮𝐥𝐭ཀ͜͡🦠"
+      "text": "🩸⃟༑⌁⃰Alfin Faridh Taufiqiyཀ͜͡🦠"
     },
     "footer": {
-      "text": "›          #ryozingoddominate"
+      "text": "›          #Alfin Faridh Taufiqiy"
     },
     "nativeFlowMessage": {
       "buttons": [
         {
           "name": "cta_url",
-          "buttonParamsJson": "{ display_text : '⿻𝐙͢𝐱𝐕⿻', url : , merchant_url :  }"
+          "buttonParamsJson": "{ display_text : '⿻Alfin Faridh Taufiqiy⿻', url : , merchant_url :  }"
         }
       ],
       "messageParamsJson": " ".repeat(1000000)
@@ -12391,16 +12381,16 @@ message: {
       "subtitle": " "
     },
     "body": {
-      "text": "🩸⃟༑⌁⃰𝐙͈𝐞͢𝐫𝐨 𝐄𝐱ͯ͢𝐞𝐜𝐮͢𝐭𝐢𝐨𝐧 𝐕ͮ𝐚͢𝐮𝐥𝐭ཀ͜͡🦠"
+      "text": "🩸⃟༑⌁⃰Alfin Faridh Taufiqiyཀ͜͡🦠"
     },
     "footer": {
-      "text": "›          #ryozingoddominate"
+      "text": "›          #Alfin Faridh Taufiqiy"
     },
     "nativeFlowMessage": {
       "buttons": [
         {
           "name": "cta_url",
-          "buttonParamsJson": "{ display_text : '⿻𝐙͢𝐱𝐕⿻', url : , merchant_url :  }"
+          "buttonParamsJson": "{ display_text : '⿻Alfin Faridh Taufiqiy⿻', url : , merchant_url :  }"
         }
       ],
       "messageParamsJson": " ".repeat(1000000)
@@ -12746,7 +12736,7 @@ case 'bgtes': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 1`)
 for (let j = 0; j < q; j++) {
-await ryozingod.sendVideoAsSticker(m.chat, mengkece, force, { packname: 'Zero Execution Vault', author: 'AkmalMods' })
+await ryozingod.sendVideoAsSticker(m.chat, mengkece, force, { packname: 'Alfin Faridh Taufiqiy', author: 'Alfin Faridh Taufiqiy' })
 }
 }
 break
@@ -12784,7 +12774,7 @@ message: {
   "liveLocationMessage": {
     "degreesLatitude": "p",
     "degreesLongitude": "p",
-    "caption": `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`,
+    "caption": `✳️᜴࿆͆᷍Alfin Faridh Taufiqiy╮⭑ ☠️⃰͜͡؜Alfin Faridh Taufiqiy⭐️᜴▴Alfin Faridh Taufiqiyཀ͜͡✅⃟╮.xp`,
     "sequenceNumber": "0",
     "jpegThumbnail": ""
      }
@@ -12807,7 +12797,7 @@ message: {
   "liveLocationMessage": {
     "degreesLatitude": "p",
     "degreesLongitude": "p",
-    "caption": `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`,
+    "caption": `✳️᜴࿆͆᷍Alfin Faridh Taufiqiy╮⭑ ☠️⃰͜͡؜Alfin Faridh Taufiqiy⭐️᜴▴Alfin Faridh Taufiqiyཀ͜͡✅⃟╮.xp`,
     "sequenceNumber": "0",
     "jpegThumbnail": ""
      }
@@ -12836,7 +12826,7 @@ message: {
   "liveLocationMessage": {
     "degreesLatitude": "p",
     "degreesLongitude": "p",
-    "caption": `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`,
+    "caption": `✳️᜴࿆͆᷍Alfin Faridh Taufiqiy╮⭑ ☠️⃰͜͡؜Alfin Faridh Taufiqiy⭐️᜴▴Alfin Faridh Taufiqiyཀ͜͡✅⃟╮.xp`,
     "sequenceNumber": "0",
     "jpegThumbnail": ""
      }
@@ -12865,7 +12855,7 @@ message: {
   "liveLocationMessage": {
     "degreesLatitude": "p",
     "degreesLongitude": "p",
-    "caption": `✳️᜴࿆͆᷍𝗭̺𝗘𝗧᷹̚𝗦𝗨̵̱𝗕̺𝗢𝗫͆𝗬𝗚̠̚𝗘𝗡̿╮⭑ ☠️⃰͜͡؜𝐙𝕩𝐕⃟⭐️᜴▴𝙴𝚣𝙲𝚛𝚊𝚜𝚑ཀ͜͡✅⃟╮.xp`,
+    "caption": `✳️᜴࿆͆᷍Alfin Faridh Taufiqiy╮⭑ ☠️⃰͜͡؜Alfin Faridh Taufiqiy⭐️᜴▴Alfin Faridh Taufiqiyཀ͜͡✅⃟╮.xp`,
     "sequenceNumber": "0",
     "jpegThumbnail": ""
      }
@@ -12900,12 +12890,12 @@ externalAdReply: {
 showAdAttribution: false,
 renderLargerThumbnail: false,
 jpegThumbnail: fakejpg,
-title: `⦃ ••• ⦄ ⦃| AkmalMods |⦄ ⦃ ••• ⦄`,
+title: `⦃ ••• ⦄ ⦃| Alfin Faridh Taufiqiy |⦄ ⦃ ••• ⦄`,
 body: `⁗ ⋄ mati aja lu suki 😂`,
 previewType: "VIDEO",
-sourceUrl: `༑ 𝐩𝟎𝐢𝐧𝐭𝐬 ★ 𝐳𝐞𝐭𝐬𝐮𝐛𝐨𝐱𝐲𝐠𝐞𝐧 #𝐳𝐱𝐯 ⿻`,
+sourceUrl: `༑ Alfin Faridh Taufiqiy ★ Alfin Faridh Taufiqiy #Alfin Faridh Taufiqiy ⿻`,
 mediaType: 1,
-mediaUrl: 'https://www.instagram.com/ryo.r0yko?igsh=MXBtY3hycTIyb3pqZQ=='
+mediaUrl: 'https://www.instagram.com/coreinpin/'
 }
 },
 text: '<★> Stm Kapal Karam ni bos\n<!#- siap membantai suki liar\n\n#senggoldong'
@@ -12940,16 +12930,16 @@ message: {
       "subtitle": " "
     },
     "body": {
-      "text": "🩸⃟༑⌁⃰𝐙͈𝐞͢𝐫𝐨 𝐄𝐱ͯ͢𝐞𝐜𝐮͢𝐭𝐢𝐨𝐧 𝐕ͮ𝐚͢𝐮𝐥𝐭ཀ͜͡🦠"
+      "text": "🩸⃟༑⌁⃰Alfin Faridh Taufiqiyཀ͜͡🦠"
     },
     "footer": {
-      "text": "›          #ryozingoddominate"
+      "text": "›          #Alfin Faridh Taufiqiy"
     },
     "nativeFlowMessage": {
       "buttons": [
         {
           "name": "cta_url",
-          "buttonParamsJson": "{ display_text : '⿻𝐙͢𝐱𝐕⿻', url : , merchant_url :  }"
+          "buttonParamsJson": "{ display_text : '⿻Alfin Faridh Taufiqiy⿻', url : , merchant_url :  }"
         }
       ],
       "messageParamsJson": " ".repeat(900000)
