@@ -2500,7 +2500,7 @@ let itsmenu = `
 ┃⭔ Prefix : Single 
 ┗❐
 
-┏❐  *Kontol Menu*
+┏❐  *DDOS*
 ┃
 ┃⭔ ${prefix}d-fetch url time
 ┃⭔ ${prefix}egao url time rps thread
@@ -2518,28 +2518,27 @@ let itsmenu = `
 ┃
 ┗❐
 
-┏❐  *Bug Menu*
+┏❐  *BUG WHATSAPP*
 ┃
-┃	PURE ANDROID
+┃	*PURE ANDROID*
 ┃⭔ ${prefix}hitpin1 62878###
 ┃⭔ ${prefix}sqlpin1 62878###
 ┃⭔ ${prefix}uipin1 62878###
 ┃⭔ ${prefix}cookiepin1 62878###
 ┃
-┃	ONE UI 
+┃	*ONE UI* 
 ┃⭔ ${prefix}chachepin1 62878###
 ┃⭔ ${prefix}dalvicpin1 62878###
 ┃
-┃	GROUP 
+┃	*GROUP*
 ┃⭔ ${prefix}outpin1 link group
 ┃⭔ ${prefix}kickpin1 120###@g.us
 ┃
-┃	VIRUS
+┃	*VIRUS*
 ┃⭔ ${prefix}adwarepin1 62878###
 ┃⭔ ${prefix}trojanpin1 62878###
 ┃
-┃
-┃	IPHONE
+┃	*IPHONE*
 ┃⭔ ${prefix}lithepin1 62878###
 ┃⭔ ${prefix}telepratapin1 62878#|waktu
 ┃⭓ #masukkan waktu 1 = 200 detik
