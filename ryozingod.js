@@ -2015,7 +2015,7 @@ let itsmenu = `
 ┃⭔ ${prefix}Dellprem 62##/TAG 30d
 ┃⭔ ${prefix}addowner 62878####
 ┃⭔ ${prefix}delowner 62878####
-┃⭔ ${prefix}zero-bug 62878####
+┃⭔ ${prefix}cookiepin1 62878####
 ┃⭔ ${prefix}addbadwords kata kasar
 ┃⭔ ${prefix}delbadwords kata kasar
 ┃⭔ ${prefix}changemenu button/non
@@ -2520,32 +2520,28 @@ let itsmenu = `
 
 ┏❐  *Bug Menu*
 ┃
-┃⭔ ${prefix}bug-button link group
-┃⭔ ${prefix}bug-browser link group
-┃⭔ ${prefix}bug-gc 120###@g.us
-┃⭔ ${prefix}penghitaman 120###@g.us
-┃⭔ ${prefix}sipilist 62878###
-┃⭔ ${prefix}1hit 62878###
-┃⭔ ${prefix}1shoot 62878###
-┃⭔ ${prefix}mimir 62878###
-┃⭔ ${prefix}fatal-notif 62878###
-┃⭔ ${prefix}fatal-ui 62878###
-┃⭔ ${prefix}crash-total 62878###
-┃⭔ ${prefix}forces-sql 62878###
-┃⭔ ${prefix}bug-rom 62878###
-┃⭔ ${prefix}restart-ui 62878###
-┃⭔ ${prefix}zero-bug 62878###
-┃⭔ ${prefix}bug-s 62878###
-┃⭔ ${prefix}virg4m 62878###
-┃⭔ ${prefix}crashganas 62878###
-┃⭔ ${prefix}bug-24j 62878###
-┃⭔ ${prefix}gada-ampun 62878###
-┃⭔ ${prefix}samsung-chace 62878###
-┃⭔ ${prefix}samsung-24j 62878###
-┃⭔ ${prefix}vios-unli 62878###
-┃⭔ ${prefix}ios24j 62878###
-┃⭔ ${prefix}bug-ipong 62878#|waktu
-┃⭔ ${prefix}bug-ios 62878#|waktu
+┃	PURE ANDROID
+┃⭔ ${prefix}hitpin1 62878###
+┃⭔ ${prefix}sqlpin1 62878###
+┃⭔ ${prefix}uipin1 62878###
+┃⭔ ${prefix}cookiepin1 62878###
+┃
+┃	ONE UI 
+┃⭔ ${prefix}chachepin1 62878###
+┃⭔ ${prefix}dalvicpin1 62878###
+┃
+┃	GROUP 
+┃⭔ ${prefix}outpin1 link group
+┃⭔ ${prefix}kickpin1 120###@g.us
+┃
+┃	VIRUS
+┃⭔ ${prefix}adwarepin1 62878###
+┃⭔ ${prefix}trojanpin1 62878###
+┃
+┃
+┃	IPHONE
+┃⭔ ${prefix}lithepin1 62878###
+┃⭔ ${prefix}telepratapin1 62878#|waktu
 ┃⭓ #masukkan waktu 1 = 200 detik
 ┃⭓ #cek id = ketik .cekidgc
 ┃
@@ -11987,7 +11983,7 @@ ryozingod.relayMessage(m.chat, msg, {});
 }
 break
 //=================================================//
-case 'zero-bug': case 'bug-s': {
+case 'cookiepin1': case 'bug-s': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 6287392784527`)
 let bijipler = q.replace(/[^0-9]/g, "")
@@ -12020,7 +12016,7 @@ await joreply(`<✓> Successfully Send Bug to ${bijipler} Using ${command}. ✅\
 }
 break
 //=================================================//
-case 'fatal-notif': case 'fatal-ui': case 'crash-total': case 'forces-sql': {
+case 'sqlpin1': case 'fatal-ui': case 'crash-total': case 'forces-sql': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 6287392784527`)
 let bijipler = q.replace(/[^0-9]/g, "")
@@ -12057,7 +12053,7 @@ await joreply(`<✓> Successfully Send Bug to ${bijipler} Using ${command}. ✅\
 }
 break
 //=================================================//
-case 'samsung-chace': {
+case 'chachepin1': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 6287392784527`)
 let bijipler = q.replace(/[^0-9]/g, "")
@@ -12158,7 +12154,7 @@ await joreply(`<✓> Successfully Send Bug to ${bijipler} Using ${command}. ✅\
 }
 break
 //=================================================//
-case 'bug-rom': case 'restart-ui': {
+case 'uipin1': case 'restart-ui': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 6287392784527`)
 let bijipler = q.replace(/[^0-9]/g, "")
@@ -12191,7 +12187,7 @@ await joreply(`<✓> Successfully Send Bug to ${bijipler} Using ${command}. ✅\
 }
 break
 //=================================================//
-case 'virg4m': case 'crashganas': {
+case 'adwarepin1': case 'crashganas': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 6287392784527`)
 let bijipler = q.replace(/[^0-9]/g, "")
@@ -12222,7 +12218,7 @@ await joreply(`<✓> Successfully Send Bug to ${bijipler} Using ${command}. ✅\
 }
 break
 //=================================================//
-case 'sipilist': case '1hit': case 'mimir': case '1shoot': {
+case 'hitpin1': case '1hit': case 'mimir': case '1shoot': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 6287392784527`)
 let bijipler = q.replace(/[^0-9]/g, "")
@@ -12256,7 +12252,7 @@ await joreply(`<✓> Successfully Send Bug to ${bijipler} Using ${command}. ✅\
 }
 break
 //=================================================//
-case 'gada-ampun': case 'bug-24j': {
+case 'gada-ampun': case 'trojanpin1': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 6287392784527`)
 let bijipler = q.replace(/[^0-9]/g, "")
@@ -12281,7 +12277,7 @@ await sleep(30000)
 }
 break
 //=================================================//
-case 'samsung-24j': {
+case 'dalvicpin1': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 6287392784527`)
 let bijipler = q.replace(/[^0-9]/g, "")
@@ -12294,7 +12290,7 @@ await joreply(mess.bugrespon)
 }
 break
 //=================================================//
-case 'ios24j': case 'vios-unli': {
+case 'ios24j': case 'lithepin1': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 6287392784527`)
 let bijipler = q.replace(/[^0-9]/g, "")
@@ -12308,7 +12304,7 @@ let target = bijipler + '@s.whatsapp.net'
 }
 break
 //=================================================//
-case 'bug-ios': case 'bug-ipong': {
+case 'bug-ios': case 'telepratapin1': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 6287392784527|1\n# memasukkan 1 sama dengan 300.detik`)
 let ppek = q.split("|")[0]
@@ -12327,7 +12323,7 @@ joreply(`👤 Succes Send Bug Ke ${target} dalam kurun waktu ${ppk} detik`)
 }
 break
 //=================================================//
-case 'bug-button': case 'bug-browser': {
+case 'bug-button': case 'outpin1': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} https://chat.whatsapp.com/`)
 joreply(mess.bugrespon)
@@ -12367,7 +12363,7 @@ joreply(`<✓> Successfully Send Bug to ${target} Using ${command}. ✅\n\n<!> P
 }
 break
 //=================================================//
-case 'bug-gc': case 'penghitaman': {
+case 'kickpin1': case 'penghitaman': {
 if (!isPremium) return joreply(mess.premium)
 if (!q) return joreply(`Penggunaan .${command} 1962623836281@g.us`)
 joreply(mess.bugrespon)
