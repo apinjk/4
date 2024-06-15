@@ -3581,7 +3581,7 @@ joreply("Sukses Premium")
 addPremiumUser(args[0] + "@s.whatsapp.net", args[1], orgkaya);
 joreply("Sukses Via Nomer")
 await sleep(2000)
-ryozingod.sendMessage(args[0] + "@s.whatsapp.net", {image: {url: `https://telegra.ph/file/4591e4839848523095e05.jpg`}, caption: `Kamu sekarang adalah Anggota Premium`},{quoted: qevent })
+ryozingod.sendMessage(args[0] + "@s.whatsapp.net", {image: {url: `https://telegra.ph/file/009ebdebe31455aae8958.jpg`}, caption: `Kamu sekarang adalah Anggota Premium`},{quoted: qevent })
 }
 }
 break
@@ -3606,7 +3606,7 @@ orgkaya.splice(targetPremiumIndex, 1)
 fs.writeFileSync("./dtbs/premium.json", JSON.stringify(orgkaya))
 joreply("Sukses Via Nomer")
 await sleep(2000)
-ryozingod.sendMessage(targetNumber, {image: {url: `https://telegra.ph/file/4591e4839848523095e05.jpg`}, caption: `Kamu sekarang adalah Anggota Premium`},{quoted: qevent })
+ryozingod.sendMessage(targetNumber, {image: {url: `https://telegra.ph/file/009ebdebe31455aae8958.jpg`}, caption: `Kamu sekarang adalah Anggota Premium`},{quoted: qevent })
 } else {
 joreply("Entitas premium tidak ditemukan")
 }
@@ -3637,7 +3637,7 @@ if (cek1.length == 0) return (`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsA
 kontributor.push(prem1)
 fs.writeFileSync('./dtbs/owner.json', JSON.stringify(kontributor))
 joreply(`${prem1} Sudah menjadi kontributor!!!`)
-ryozingod.sendMessage(prem1+'@s.whatsapp.net', {image: {url: `https://telegra.ph/file/4591e4839848523095e05.jpg`}, caption: `Kamu sekarang adalah owner / kontributor bot`},{quoted: qpay})
+ryozingod.sendMessage(prem1+'@s.whatsapp.net', {image: {url: `https://telegra.ph/file/009ebdebe31455aae8958.jpg`}, caption: `Kamu sekarang adalah owner / kontributor bot`},{quoted: qpay})
 }
 break
 //=================================================//
@@ -3661,7 +3661,7 @@ fs.writeFileSync('./dtbs/seller.json', JSON.stringify(orgkaya))
 joreply(`${prem1} Sudah menjadi orgkaya!!!`)
 await sleep(3500)
 ryozingod.sendMessage(prem1 + '@s.whatsapp.net', {
-image: { url: 'https://telegra.ph/file/4591e4839848523095e05.jpg' },
+image: { url: 'https://telegra.ph/file/009ebdebe31455aae8958.jpg' },
 caption: 'Kamu sekarang adalah Reseller!!'
 }, { quoted: m })
 break
